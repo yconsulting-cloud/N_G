@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" width="400" height="200">
+  <!-- Background -->
+  <rect width="400" height="200" fill="#1e3d2f"/>
+  
+  <!-- Border frame -->
+  <rect x="20" y="20" width="360" height="160" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.85"/>
+  
+  <!-- Main title: NONNA -->
+  <text x="200" y="85" 
+        font-family="Playfair Display, Georgia, serif" 
+        font-weight="600" 
+        font-size="52" 
+        fill="#ffffff" 
+        text-anchor="middle"
+        letter-spacing="4">NONNA</text>
+  
+  <!-- Main title: GIULIA -->
+  <text x="200" y="145" 
+        font-family="Playfair Display, Georgia, serif" 
+        font-weight="600" 
+        font-size="52" 
+        fill="#ffffff" 
+        text-anchor="middle"
+        letter-spacing="4">GIULIA</text>
+</svg>
