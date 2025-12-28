@@ -74,7 +74,7 @@
         .hero__detail-label{margin-bottom:var(--sp-2);font-size:var(--fs-xs);font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--c-accent)}
         .hero__detail-value{font-family:var(--ff-display);font-size:var(--fs-md);color:var(--c-text-inv)}
         .hero__scroll{position:absolute;bottom:var(--sp-10);left:50%;transform:translateX(-50%);opacity:0;animation:fadeUp 1s 1.1s forwards}
-        .hero__scroll-line{width:1px;height:60px;background:linear-gradient(to bottom,var(--c-bg-alt),transparent);position:relative;overflow:hidden}
+        .hero__scroll-line{width:1px;height:60px;background:linear-gradient(to bottom,var(--c-bg-alt),transparent);position:relative;overflow:hidden;z-index:-1}
         .hero__scroll-line::after{content:'';position:absolute;top:0;left:0;width:100%;height:20px;background:var(--c-text-inv);animation:scrollAnim 1.5s infinite}
         @keyframes scrollAnim{from{transform:translateY(-20px)}to{transform:translateY(80px)}}
         .section{padding:var(--sp-24) var(--pad)}
